@@ -27,7 +27,21 @@ class SperpatController extends Controller
 
     public function store(Request $request)
     {
-        # code...
+        $this->validate($request,[
+            'nama'=>'required',
+            'no_inventaris'=>'required',
+            'qty'=>'required',
+            'jenis_barang'=>'required',
+            'tanggal_pembelian' =>'required'
+        ]);
+
+        $data = Sperpat::create([
+            'nama' => $request->nama,
+            'no_inventaris' => $request->no_inventaris,
+            'qty' => $request->qty,
+            'jenis_barang' => $request->jenis_barang,
+            'tanggal_pembelian'=>$request->tanggal_pembelian
+        ]);
     }
 
     public function destroy($id)

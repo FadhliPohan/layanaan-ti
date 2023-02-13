@@ -14,6 +14,49 @@
             <div class="card-header py-3">
                 <div class="row">
                     <div class="col-sm-6">
+                        <h6 class="m-0 font-weight-bold text-primary">DataTable Sperpat Card</h6>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-body">
+                <ul class="cardList">
+                    <li class="card">
+                        <div class="row">
+                            <div class="col">
+                                <p>Nama : </p>
+                                <p class="namaku"></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h6 class="m-0 font-weight-bold text-primary">DataTable Sperpat Card</h6>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table style="border: none" class="table" id="dataTableSperpatCard" width="100%" cellpadding="0"
+                        cellspacing="0">
+                        <tbody style="border: none">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <div class="row">
+                    <div class="col-sm-6">
                         <h6 class="m-0 font-weight-bold text-primary">DataTable Sperpat</h6>
                     </div>
                     <div class="col-sm-6 ">
